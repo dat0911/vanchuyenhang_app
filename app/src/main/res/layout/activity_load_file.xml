@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".load_file">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="211dp"
+        tools:layout_editor_absoluteY="82dp">
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:id="@+id/btn_themanhtumay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="+ Thêm ảnh từ thư viện" />
+
+        <Button
+            android:id="@+id/btn_chupanh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="+ Chụp ảnh mới"
+            />
+
+        <ImageView
+            android:id="@+id/imageViewHinh"
+            android:layout_width="match_parent"
+            android:layout_height="245dp"
+            android:layout_marginTop="30dp"
+            app:srcCompat="@drawable/ic_menu_gallery" />
+        <Button
+            android:id="@+id/btn_them"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Thêm" />
+        <Button
+            android:id="@+id/btn_huyanh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Hủy" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

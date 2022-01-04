@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.Fragment.Goihang_Fragment"
+    android:background="#F1EEEE">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/text_goihangcuatoi"
+        android:textSize="18dp"
+        android:layout_width="370dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="160dp"
+        android:text="Nhập số điện thoại để xem thông tin gói hàng"
+        />
+
+
+    <SearchView
+        android:id="@+id/seach_goihang"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/btn"
+        android:inputType="number"></SearchView>
+
+
+</FrameLayout>

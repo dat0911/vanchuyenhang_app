@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_trangchu">
+
+    <fragment
+        android:id="@+id/nav_trangchu"
+        android:name="com.example.datlogistics.ui.Fragment.trangchu_Fragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_trangchu_" />
+
+    <fragment
+        android:id="@+id/nav_goihangcuatoi"
+        android:name="com.example.datlogistics.ui.Fragment.Goihang_Fragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_goihang_" />
+
+    <fragment
+        android:id="@+id/nav_vitri"
+        android:name="com.example.datlogistics.ui.Fragment.Vi_tri_Fragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_vi_tri_" />
+</navigation>
